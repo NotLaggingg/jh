@@ -14,7 +14,7 @@ local AimwareSettings = getgenv().AimwareSettings
 if AimwareSettings == nil then
 warn("Aimware - Cannot find your configuration.")
 getgenv().AimwareSettings = {
-    PerformanceMode = true,
+    PerformanceMode = false,
     TargetKey = "E",
     Watermark = true,
     ToggleKey = Enum.KeyCode.RightShift

@@ -496,7 +496,7 @@ Library:CreateWatermark("Aimware - "..ver..", FPS: {fps} ")
 
 end
 
-local Window = Library:CreateWindow(Script.Name, Vector2.new(492, 598), script.ToggleKey)
+local Window = Library:CreateWindow(Script.Name, Vector2.new(492, 598), AimwareSettings.ToggleKey)
 local LegitTab = Window:CreateTab("Legit")
 local AimbotSection = LegitTab:CreateSector("Aimbot", "left")
 
